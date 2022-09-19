@@ -9,7 +9,7 @@ export default function BlogCard({ title, subtitle, text, image }) {
         <div className="subtitle">{subtitle}</div>
         <div className="text">{text}</div>
       </div>
-      <div className="image">
+      <div className="image anotherClass">
         <img src={image} />
       </div>
     </div>
